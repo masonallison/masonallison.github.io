@@ -3,11 +3,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-    color:rgb(255, 55, 0);
+    color:rgb(0, 0, 0);
     text-align: center;
 }
 h2 {
-    color: red;
+    color: rgb(0, 0, 0);
     text-align: left;
 }
 
@@ -19,20 +19,20 @@ h2 {
 width: 30%;
 margin: 10px;
 padding: 20px 10px;
-background: rgb(184, 95, 205); /* pick a color */
+background: rgb(165, 0, 0); /* pick a color */
 border-radius: 25%;
 }
 .project img{
     width: 300px;
     height: 300px;
     margin: 10px;
-    border: 2px solid rgb(126, 14, 201); /* choose a color */
+    border: 2px solid rgb(255, 255, 255); /* choose a color */
     display: block;
     margin: auto;
 }
 a { /* change the appearance of ALL links */
     text-decoration: none;
-    color: purple;
+    color: rgb(0, 0, 0);
 }
 .project p { /* change the appearance of paragraph tags inside .project divs */
     text-align: center;
@@ -55,5 +55,5 @@ a { /* change the appearance of ALL links */
     width: 150px;
     height: 200px;
     border-radius: 25%;
-    border: 2px solid rgb(126, 14, 201);
+    border: 2px solid rgb(255, 255, 255);
 }
